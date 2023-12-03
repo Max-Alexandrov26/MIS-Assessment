@@ -1,0 +1,11 @@
+name: MIS_env
+channels:
+  - defaults
+dependencies:
+  - python=3.10.12
+  - pip
+  - pip:
+    - ultralytics
+    - streamlit
+    - opencv-python==4.8.0.76
+    - opencv-contrib-python==4.8.0.76
