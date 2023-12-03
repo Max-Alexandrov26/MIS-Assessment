@@ -1,1 +1,6 @@
 # MIS-Assessment
+As the trained model was too big to be uploaded on GitHub, please download it from the following link: https://drive.google.com/file/d/1EOalcTvJvNmeY0mRIcId8bUjnMSt3Dc9/view?usp=drive_link and place the downloaded file into the cloned repository. Then, create the virtual Conda environment by running the following command inside the cloned directory:
+
+```conda env create -f environment.yml```
+
+Afterwards, run the main.py file by passing the path to the images folder into the main function. I am attaching a folder called "test_data", which contains the 6 images given in the original assessment repository, and by deafault those are the inputs into the main function. Thank you for your consideration!
