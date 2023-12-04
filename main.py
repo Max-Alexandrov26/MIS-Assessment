@@ -34,5 +34,5 @@ def main(input_repository):
     print("GeoJSON file generated in: 'GEOJSON_files'")
 
 
-main('halves')
+main('test_data')
     
