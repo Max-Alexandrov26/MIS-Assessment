@@ -1,6 +1,6 @@
 import os
 import shutil
-from comlementary_functions import generate_footprint_and_overlay,generate_geojson
+from complimentary_functions import generate_footprint_and_overlay,generate_geojson
 from model import get_predictions
 def main(input_repository):
     # Get predictions from YOLO
@@ -34,5 +34,5 @@ def main(input_repository):
     print("GeoJSON file generated in: 'GEOJSON_files'")
 
 
-main('test_data')
+main('halves')
     
